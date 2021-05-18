@@ -27,7 +27,7 @@ This will resolve the driver dependancies for your project. and you can direcly 
 Apart from that let's say the you want to run your test with another compatible brower version. In that case you can easily switch the to compatible brwser version you need using .browserVersion. For example, even though my current chrome version is 90.0.4430, if I want to run the test to crome version "89.0.4389" ( chrome driver which supports chrome 90 will support chrome 89 as well ) The code update is,
 
     public void setUpChromeDriver() {
-        WebDriverManager.chromedriver().driverVersion("88.0.4324").setup();
+        WebDriverManager.chromedriver().driverVersion("89.0.4389").setup();
         driver = new ChromeDriver();
     }
     
